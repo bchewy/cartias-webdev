@@ -1,0 +1,76 @@
+/* Global Styles */
+:root {
+    /* Add:
+    1. Custom color variables
+    2. Font variables
+    3. Spacing variables
+    */
+}
+
+/* Hero Section */
+.hero {
+    /* Add:
+    1. Min-height
+    2. Background properties
+    3. Flexbox centering
+    4. Text color
+    */
+}
+
+/* Feature Cards */
+.feature-card {
+    /* Add:
+    1. Card styling
+    2. Hover effects
+    3. Icon styling
+    */
+}
+
+/* Resource Cards */
+.resource-card {
+    /* Add:
+    1. Card styling
+    2. Image sizing
+    3. Hover effects
+    */
+}
+
+/* Newsletter Section */
+.newsletter {
+    /* Add:
+    1. Background
+    2. Form styling
+    3. Button styling
+    */
+}
+
+/* Footer Styles */
+.footer-links {
+    /* Add:
+    1. List styling
+    2. Link colors
+    3. Hover effects
+    */
+}
+
+.social-icons {
+    /* Add:
+    1. Icon spacing
+    2. Icon colors
+    3. Hover effects
+    */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    /* Add:
+    1. Mobile navigation
+    2. Responsive spacing
+    3. Card layouts
+    */
+}
+
+/* Animations */
+@keyframes fadeIn {
+    /* Add fade-in animation */
+} 

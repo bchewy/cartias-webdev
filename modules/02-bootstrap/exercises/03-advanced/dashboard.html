@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Course Dashboard</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <style>
+        .sidebar {
+            /* Add:
+            - width: 280px
+            - height: 100vh
+            - position: fixed
+            - padding
+            - overflow-y: auto
+            */
+        }
+        
+        .main-content {
+            /* Add:
+            - margin-left (match sidebar width)
+            - padding
+            */
+        }
+        
+        @media (max-width: 768px) {
+            /* Add responsive styles for:
+            - sidebar (full width, static position)
+            - main-content (no margin)
+            */
+        }
+    </style>
+</head>
+<body>
+    <!-- Sidebar -->
+    <div class="sidebar bg-body-tertiary border-end">
+        <!-- Add:
+        1. Dashboard header with theme toggle
+        2. Navigation list with icons:
+           - Overview (active)
+           - Courses
+           - Schedule
+           - Profile
+           - Settings
+        -->
+    </div>
+
+    <!-- Main Content -->
+    <div class="main-content">
+        <div class="container-fluid">
+            <!-- Stats Cards Row -->
+            <div class="row g-4 mb-4">
+                <!-- Add 4 stat cards with:
+                - Title
+                - Number
+                - Icon
+                Use different colors for each
+                -->
+            </div>
+
+            <!-- Progress & Activity -->
+            <div class="row">
+                <!-- Course Progress Card -->
+                <div class="col-md-8 mb-4">
+                    <!-- Add card with:
+                    - Header
+                    - Progress bars for 3 courses
+                    -->
+                </div>
+
+                <!-- Recent Activity Card -->
+                <div class="col-md-4 mb-4">
+                    <!-- Add card with:
+                    - Header
+                    - List of recent activities
+                    -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        // Add theme toggle function
+    </script>
+</body>
+</html> 

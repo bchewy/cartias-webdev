@@ -1,0 +1,94 @@
+/* Global Styles */
+html {
+    /* Add smooth scrolling */
+}
+
+body {
+    /* Add:
+    - margin reset
+    - font-family
+    - line-height
+    */
+}
+
+/* Navigation */
+.navbar {
+    /* Add:
+    - position: sticky
+    - background
+    - color
+    - padding
+    - display: flex
+    - z-index
+    */
+}
+
+.nav-brand {
+    /* Style the logo/brand */
+}
+
+.nav-links {
+    /* Style the navigation list */
+}
+
+.nav-links a {
+    /* Style navigation links */
+}
+
+.nav-links a:hover {
+    /* Add hover effect */
+}
+
+/* Sections */
+section {
+    /* Add:
+    - padding
+    - min-height
+    */
+}
+
+/* Hero Section */
+.hero {
+    /* Add:
+    - background image with overlay
+    - text color
+    - flexbox centering
+    */
+}
+
+/* Skills Section */
+.skill-bars {
+    /* Style the skills container */
+}
+
+.progress {
+    /* Style the progress bar background */
+}
+
+.progress-bar {
+    /* Style the progress bar fill */
+}
+
+/* Contact Form */
+.contact-form {
+    /* Style the form layout */
+}
+
+.contact-form input,
+.contact-form textarea {
+    /* Style form inputs */
+}
+
+.contact-form button {
+    /* Style submit button */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    /* Add mobile styles for:
+    - Navigation
+    - Hero section
+    - Skills
+    - Form
+    */
+} 

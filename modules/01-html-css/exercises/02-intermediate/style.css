@@ -1,0 +1,73 @@
+/* Recipe Card Container */
+.recipe-card {
+    /* Add:
+    - max-width
+    - margin (center the card)
+    - padding
+    - border
+    - border-radius
+    - font-family
+    */
+}
+
+/* Recipe Title */
+h1 {
+    /* Add:
+    - text-align (center)
+    - color
+    */
+}
+
+/* Recipe Info Section */
+.recipe-info {
+    /* Add:
+    - display: flex
+    - justify-content
+    - margin
+    - color
+    */
+}
+
+/* Recipe Image */
+.recipe-image {
+    /* Add:
+    - width (100%)
+    - max-height
+    - object-fit
+    - border-radius
+    - margin
+    */
+}
+
+/* Ingredients List */
+.ingredients ul {
+    /* Add:
+    - list-style-type
+    - color
+    */
+}
+
+/* Instructions List */
+.instructions ol {
+    /* Add:
+    - list-style-type
+    - color
+    */
+}
+
+/* Section Headings */
+h2 {
+    /* Add:
+    - color
+    - border-bottom
+    - padding-bottom
+    */
+}
+
+/* List Items */
+li {
+    /* Add:
+    - margin
+    - line-height
+    */
+} 

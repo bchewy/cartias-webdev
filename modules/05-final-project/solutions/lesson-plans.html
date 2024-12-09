@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lesson Plans - TeachHub</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary sticky-top">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <i class="fas fa-graduation-cap me-2"></i>TeachHub
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="lesson-plans.html">Lesson Plans</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="resources.html">Resources</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <header class="page-header bg-light py-5">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <h1 class="display-4 mb-3">Lesson Plans</h1>
+                    <p class="lead">Browse and download professionally crafted lesson plans for all grade levels.</p>
+                </div>
+                <div class="col-md-6">
+                    <div class="search-box">
+                        <div class="input-group">
+                            <input type="text" class="form-control" placeholder="Search lesson plans...">
+                            <button class="btn btn-primary" type="button">Search</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Filter Section -->
+    <section class="filters py-4 bg-white border-bottom">
+        <div class="container">
+            <div class="d-flex flex-wrap gap-2">
+                <button class="filter-button btn btn-outline-primary active">All</button>
+                <button class="filter-button btn btn-outline-primary">Mathematics</button>
+                <button class="filter-button btn btn-outline-primary">Science</button>
+                <button class="filter-button btn btn-outline-primary">Language Arts</button>
+                <button class="filter-button btn btn-outline-primary">Social Studies</button>
+                <button class="filter-button btn btn-outline-primary">Arts</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Lesson Plans Grid -->
+    <section class="lesson-plans py-5">
+        <div class="container">
+            <div class="row g-4">
+                <!-- Math Lesson -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="card lesson-card h-100">
+                        <div class="card-body">
+                            <span class="badge bg-primary mb-2">Mathematics</span>
+                            <span class="badge bg-secondary mb-2">Grades 6-8</span>
+                            <h5 class="card-title">Introduction to Algebra</h5>
+                            <p class="card-text">A comprehensive lesson plan for teaching basic algebraic concepts through interactive activities.</p>
+                            <div class="mb-3">
+                                <strong>Learning Objectives:</strong>
+                                <ul class="small">
+                                    <li>Understand variables and constants</li>
+                                    <li>Solve simple equations</li>
+                                    <li>Apply algebraic concepts to real-world problems</li>
+                                </ul>
+                            </div>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <span class="text-muted"><i class="far fa-clock me-1"></i> 45 minutes</span>
+                                <a href="#" class="btn btn-outline-primary btn-sm">Download PDF</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Science Lesson -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="card lesson-card h-100">
+                        <div class="card-body">
+                            <span class="badge bg-success mb-2">Science</span>
+                            <span class="badge bg-secondary mb-2">Grades 4-5</span>
+                            <h5 class="card-title">The Solar System</h5>
+                            <p class="card-text">An engaging lesson plan exploring our solar system with hands-on activities and visual aids.</p>
+                            <div class="mb-3">
+                                <strong>Learning Objectives:</strong>
+                                <ul class="small">
+                                    <li>Identify planets in our solar system</li>
+                                    <li>Understand planetary motion</li>
+                                    <li>Compare planet characteristics</li>
+                                </ul>
+                            </div>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <span class="text-muted"><i class="far fa-clock me-1"></i> 60 minutes</span>
+                                <a href="#" class="btn btn-outline-primary btn-sm">Download PDF</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Language Arts Lesson -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="card lesson-card h-100">
+                        <div class="card-body">
+                            <span class="badge bg-info mb-2">Language Arts</span>
+                            <span class="badge bg-secondary mb-2">Grades 3-4</span>
+                            <h5 class="card-title">Creative Writing Workshop</h5>
+                            <p class="card-text">A creative writing lesson plan that helps students develop storytelling skills and imagination.</p>
+                            <div class="mb-3">
+                                <strong>Learning Objectives:</strong>
+                                <ul class="small">
+                                    <li>Develop character descriptions</li>
+                                    <li>Create engaging plot structures</li>
+                                    <li>Use descriptive language</li>
+                                </ul>
+                            </div>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <span class="text-muted"><i class="far fa-clock me-1"></i> 50 minutes</span>
+                                <a href="#" class="btn btn-outline-primary btn-sm">Download PDF</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Submit Lesson Plan -->
+    <section class="submit-lesson py-5 bg-light">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-8">
+                    <div class="card">
+                        <div class="card-body">
+                            <h3 class="card-title text-center mb-4">Submit Your Lesson Plan</h3>
+                            <form>
+                                <div class="row g-3">
+                                    <div class="col-md-6">
+                                        <label class="form-label">Subject Area</label>
+                                        <select class="form-select">
+                                            <option selected>Choose subject...</option>
+                                            <option>Mathematics</option>
+                                            <option>Science</option>
+                                            <option>Language Arts</option>
+                                            <option>Social Studies</option>
+                                            <option>Arts</option>
+                                        </select>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <label class="form-label">Grade Level</label>
+                                        <select class="form-select">
+                                            <option selected>Choose grade...</option>
+                                            <option>K-2</option>
+                                            <option>3-5</option>
+                                            <option>6-8</option>
+                                            <option>9-12</option>
+                                        </select>
+                                    </div>
+                                    <div class="col-12">
+                                        <label class="form-label">Lesson Title</label>
+                                        <input type="text" class="form-control" required>
+                                    </div>
+                                    <div class="col-12">
+                                        <label class="form-label">Learning Objectives</label>
+                                        <textarea class="form-control" rows="3" required></textarea>
+                                    </div>
+                                    <div class="col-12">
+                                        <label class="form-label">Materials Needed</label>
+                                        <textarea class="form-control" rows="2"></textarea>
+                                    </div>
+                                    <div class="col-12">
+                                        <label class="form-label">Lesson Plan File (PDF)</label>
+                                        <input type="file" class="form-control" accept=".pdf" required>
+                                    </div>
+                                    <div class="col-12">
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="checkbox" required>
+                                            <label class="form-check-label">
+                                                I confirm this is my original work and I have the right to share it
+                                            </label>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 text-center">
+                                        <button type="submit" class="btn btn-primary px-4">Submit Lesson Plan</button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white py-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <h5>About TeachHub</h5>
+                    <p>Empowering educators with quality resources and tools to enhance the learning experience.</p>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <h5>Quick Links</h5>
+                    <ul class="footer-links">
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Terms of Service</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <h5>Connect With Us</h5>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <div class="text-center">
+                <small>&copy; 2024 TeachHub. All rights reserved.</small>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html> 

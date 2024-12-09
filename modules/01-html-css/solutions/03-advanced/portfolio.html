@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="portfolio.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-brand">Portfolio</div>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section id="home" class="hero">
+            <h1>Jane Doe</h1>
+            <p class="subtitle">Web Developer & Teacher</p>
+        </section>
+
+        <section id="about" class="about">
+            <h2>About Me</h2>
+            <p>I'm a passionate educator and web developer with 5 years of teaching experience. 
+               I love creating engaging web experiences and sharing knowledge with others.</p>
+        </section>
+
+        <section id="skills" class="skills">
+            <h2>My Skills</h2>
+            <div class="skill-bars">
+                <div class="skill">
+                    <label>HTML</label>
+                    <div class="progress">
+                        <div class="progress-bar" style="width: 90%">90%</div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <label>CSS</label>
+                    <div class="progress">
+                        <div class="progress-bar" style="width: 85%">85%</div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <label>JavaScript</label>
+                    <div class="progress">
+                        <div class="progress-bar" style="width: 75%">75%</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact">
+            <h2>Contact Me</h2>
+            <form class="contact-form">
+                <input type="text" placeholder="Name" required>
+                <input type="email" placeholder="Email" required>
+                <textarea placeholder="Message" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+    </main>
+</body>
+</html> 

@@ -1,0 +1,49 @@
+.recipe-card {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+.recipe-info {
+    display: flex;
+    justify-content: space-around;
+    margin: 15px 0;
+    color: #666;
+}
+
+.recipe-image {
+    width: 100%;
+    max-height: 300px;
+    object-fit: cover;
+    border-radius: 4px;
+    margin: 15px 0;
+}
+
+.ingredients ul {
+    list-style-type: square;
+    color: #444;
+}
+
+.instructions ol {
+    list-style-type: decimal;
+    color: #444;
+}
+
+h2 {
+    color: #666;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 5px;
+}
+
+li {
+    margin: 8px 0;
+    line-height: 1.4;
+} 
